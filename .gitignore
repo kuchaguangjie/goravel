@@ -1,3 +1,50 @@
 .idea
 .DS_Store
 .env
+
+*.swp
+*.cache
+*~
+
+bin/
+
+# test
+testdata/
+
+# eclipse
+.settings/
+.project
+
+# idea
+*.iml
+.idea/
+out/
+
+# vscode
+.vscode/
+__debug_bin
+
+# fleet
+.fleet/
+
+# go mod,
+pkg/
+
+# buf
+buf.lock
+
+# binary output
+go-learn
+
+# log
+logs/
+
+# c
+*.out
+*.o
+*.a
+
+# solidity
+build/
+@openzeppelin/
+
